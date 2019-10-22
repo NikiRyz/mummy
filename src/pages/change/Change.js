@@ -12,10 +12,11 @@ class Changes extends React.Component {
 
         <Header/>
           <div className='camp'>
-       <Link to="/change/info" > <Change src=' http://www.molcentr.ru/upload/resize_cache/alt/b0d/b0dba188f4007081937d8d884fbc3b50_320_200.jpeg' p='Спортивная смена '/> </Link>
-      <Link to="/change/info" > <Change src='http://www.molcentr.ru/upload/resize_cache/alt/628/62824129fbc2b3c00f57241626af1fea_320_200.jpeg ' p=' Comedy смена'/> </Link>  
-      
+       <Link to="/change/info" > <Change src='https://avatars.mds.yandex.net/get-zen_doc/168601/pub_5c63ea4b84e0ea00aebfa927_5c63ea8173490c00ae7ef656/scale_1200' p='Спортивная смена '/> </Link>
+      <Link to="/change/info" > <Change src='http://millardayo.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-30-at-4.21.09-AM.png ' p=' Comedy смена'/> </Link>  
+      <Link to="/change/info" > <Change src='https://www.culture.ru/storage/images/1ae126c88d41d156c700f9df83309efa/fef8346826dd97efd4a1c7ab060eb460.jpeg ' p=' "Твори и созидай"'/> </Link>  
           </div>
+         
         </div>
   
       )

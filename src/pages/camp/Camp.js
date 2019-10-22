@@ -22,8 +22,9 @@ class Camps extends React.Component {
 <Link to="/camp/info" > <Camp src="http://www.molcentr.ru/upload/resize_cache/alt/ba1/ba14382c3b41f0dfba7a6365b373522d_688_404.jpeg "  p=" Детский оздоровительный лагерь Питер ЯМАЛ" /></Link>
 <Link to="/camp/info" > <Camp src="http://www.molcentr.ru/upload/resize_cache/alt/32a/32a30a6c69c1976067a9867cd62ba2b6_688_404.jpeg "  p=" Культурно-оздоровительный центр Премьера г. Анапа" /></Link>
 <Link to="/camp/info" > <Camp src=" http://www.molcentr.ru/upload/resize_cache/alt/626/626d2b17e397500defe5e6ec15985dcc_688_404.png"  p="ПО СТКД 'Шахтинский текстильщик' " /></Link>
-
+  
   </div>
+
         <img className='All' src={Img}/>
           </div>   
   
