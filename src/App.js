@@ -14,8 +14,8 @@ class App extends React.Component {
         
       
         <Switch>
-        <Route path="/camp" component={Camp} />
-        <Route path="/camp/info" component={CampInfo} />
+       <Route exact path="/camp" component={Camp} />
+        <Route exact path="/camp/info" component={CampInfo} />
         <Route path="/FAQ" component={FAQ} />
         <Route path="/change" component={Change} />
         <Redirect to="/camp" />
