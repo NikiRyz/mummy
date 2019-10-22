@@ -6,9 +6,17 @@ class Button extends React.Component {
    
   
     render() {
-      return (
-          <button > {this.props.name} </button>
-      )
+      if(this.props.color==='white'){
+        return (
+          <button className="white" > {this.props.name} </button> 
+        )
+      }
+      else{
+        return (
+          <button className="black" > {this.props.name} </button> 
+        )
+      }
+     
     }
   }
 

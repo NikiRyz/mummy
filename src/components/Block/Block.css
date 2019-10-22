@@ -5,10 +5,11 @@
     border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: 0 18px 17px -10px rgba(50, 50, 50, 0.5);
-    box-shadow: 0 18px 17px -10px rgba(50, 50, 50, 0.5);
+    box-shadow: 10px 18px 17px -10px rgba(50, 50, 50, 0.5);
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+   
 
 }
 
@@ -23,5 +24,5 @@ vertical-align: baseline;
 .block p{
     font-weight: 500;
     padding: 10px 20px;
-    
+    color:black;
 }

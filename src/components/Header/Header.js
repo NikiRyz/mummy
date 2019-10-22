@@ -16,8 +16,8 @@ class Header extends React.Component {
           <Link to='./FAQ'>  <div className="header_li li"> FAQ </div> </Link> 
           <div className="header_li ">
             <div className="header_li">
-              <Button name="Войти"/>
-              <Button name="Регистрация"/>
+              <Button name="Войти" color="white"/>
+              <Button name="Регистрация" color="white"/>
             </div>
           </div>
 
