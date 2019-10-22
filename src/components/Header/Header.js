@@ -11,7 +11,7 @@ class Header extends React.Component {
       return (
         <header>
           <img src={Logo} className="Img"/>
-          <Link to='./'> <div className="header_li li"> ЛАГЕРЯ </div>  </Link>       
+          <Link to='./camp'> <div className="header_li li"> ЛАГЕРЯ </div>  </Link>       
           <Link to='./change'>  <div className="header_li li"> СМЕНЫ </div> </Link> 
           <Link to='./FAQ'>  <div className="header_li li"> FAQ </div> </Link> 
           <div className="header_li ">
