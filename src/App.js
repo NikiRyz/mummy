@@ -8,6 +8,7 @@ import FAQ from './pages/FAQ/FAQ'
 import Change from './pages/change/Change'
 import Menu from "./pages/change/menu/Menu"
 
+
 class App extends React.Component {
    
   
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Route exact path="/change/info/menu" component={Menu} />
         <Route path="/FAQ" component={FAQ} />
         <Route exact path="/change" component={Change} />
+        
         <Redirect to="/camp" />
       </Switch>
         
