@@ -27,7 +27,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 body {
 	line-height: 1;
-	background-color:rgb(223, 223, 255); 
+	 background-color:rgb(223, 223, 255); 
+	
 }
 ol, ul {
 	list-style: none;

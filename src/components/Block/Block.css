@@ -1,7 +1,21 @@
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		
+	}
+
+
+	20% {
+		transform: translateY(-10px);
+		
+	}
+}
+
 .block{
     width: 300px;
+   
     margin: 20px auto;
-    background: linear-gradient(18.98deg, rgb(243, 227, 255) -3.17%, rgb(234, 222, 255) 20.91%, rgb(213, 192, 255) 32.72%, rgb(202, 199, 245) 45.9%, rgb(104, 141, 241) 54.66%, rgb(114, 199, 255) 67.67%, rgb(142, 225, 255) 77.89%, rgb(142, 231, 255) 84.06%);
+    background: rgb(236, 218, 250);
     border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: 0 18px 17px -10px rgba(50, 50, 50, 0.5);
@@ -9,8 +23,10 @@
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+}
+.block:hover{
    
-
+    animation: bounce 1s;
 }
 
 .block img{
@@ -24,5 +40,5 @@ vertical-align: baseline;
 .block p{
     font-weight: 500;
     padding: 10px 20px;
-    color:black;
+    color:#2338a1;
 }

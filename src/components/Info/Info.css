@@ -1,3 +1,4 @@
+
 .info{
     color:black;
 }
@@ -36,9 +37,9 @@ height: auto;
 
 }
 
-.content-text-info h3,p{
+.content-text-info p{
     width: 100%;
-    color: black;
+    color: #2338a1;
     font-weight: 400;
     padding: 10px;
 }
@@ -48,18 +49,20 @@ height: auto;
    background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 20pt;
+font-weight: bold;
+width: 100%;
 
 }
 
 .btn_see{
     margin: 5% 25%;
     text-align: center;
-    font-size: 1.5em;
-    background: linear-gradient(45deg, #843dff 30%, #834edd 10%,#314fe7 );
-    background-clip: text;
- -webkit-text-fill-color: transparent;
+    font-size: 1.3em;
+color:rgb(230, 86, 198);
  border: 0px ;
- border-bottom: 2px solid #314fe7;
+
  border-radius: 0;
+ font-weight: bold;
+ 
 }
 

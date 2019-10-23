@@ -9,6 +9,7 @@
     background: linear-gradient(45deg, #843dff 30%, #834edd 10%,#314fe7 );
     background-clip: text;
  -webkit-text-fill-color: transparent;
+    
  
     font-size: 30pt;
 }
@@ -35,18 +36,21 @@ height: auto;
 
 }
 
-.content-text-info h3,p{
+.content-text-info1 p{
+ 
+
     width: 100%;
-    color: black;
+    color: #2338a1;;
     font-weight: 400;
     padding: 10px;
 }
 
-.content-text-info h3{
+.content-text-info1 h3{
     background: linear-gradient(45deg, #834edd 15%, #6d7ae9 50%, #40d4ff);
    background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 20pt;
+font-weight: bold;
 
 }
 
@@ -60,9 +64,17 @@ font-size: 20pt;
  border-radius: 0;
  
 }
+.btn_see1:hover{
+    background:rgb(230, 86, 198);
+    background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+}
+
 .see {
     font-size:1em;
-    color:orange;  
+    color:rgb(230, 86, 198);
+    font-weight: bold;  
 }
 
 
@@ -71,4 +83,7 @@ font-size: 20pt;
     flex-direction: row;
     justify-content: space-around;
    
+}
+button{
+    border: solid 2px;
 }

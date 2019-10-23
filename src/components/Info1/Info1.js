@@ -17,7 +17,7 @@ class Info extends React.Component {
                     </div>
                   
 
-                    <div className="content-text-info">
+                    <div className="content-text-info1">
                       <h3>Начало: </h3> <p> {this.props.data1}  </p>
                       <h3>Окончание: </h3><p>  {this.props.data2} </p> 
                       <p> {this.props.p}</p>

@@ -11,7 +11,7 @@ class Video extends React.Component {
       return (
           <>
           <Header/>
-        <div className="move"> <iframe width="560" height="315" src="https://www.youtube.com/embed/xAz9DGvsgqE?start=69" autoplay="autoplay" loop="loop" preload="auto"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className="move"> <iframe width="800" height="450" src="https://www.youtube.com/embed/xAz9DGvsgqE?start=300" autoplay="autoplay" loop="loop" preload="auto"frameborder="0" allow=" autoplay;  " allowfullscreen></iframe>
         </div>
         </>
       )
