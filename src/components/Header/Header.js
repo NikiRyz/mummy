@@ -32,7 +32,7 @@ class Header extends React.Component {
               <Button name="Войти" color="white"/>
               <div onClick= {this.handleClick}>
               <Button name="Регистрация" color="white"  />
-              {this.state.isFormOn ?  <Form/> :  ''}
+              {this.state.isFormOn ?  <Form className="Form"/> :  ''}
               </div>
               
                                

@@ -7,7 +7,7 @@ import Camp from './pages/camp/Camp'
 import FAQ from './pages/FAQ/FAQ'
 import Change from './pages/change/Change'
 import Menu from "./pages/change/menu/Menu"
-
+import Move from './pages/change/video/Video'
 
 class App extends React.Component {
    
@@ -23,6 +23,7 @@ class App extends React.Component {
         <Route exact path="/change/info/menu" component={Menu} />
         <Route path="/FAQ" component={FAQ} />
         <Route exact path="/change" component={Change} />
+        <Route exact path="/change/info/move" component={Move} />
         
         <Redirect to="/camp" />
       </Switch>

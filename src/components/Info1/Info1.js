@@ -24,10 +24,10 @@ class Info extends React.Component {
                       <div className="Row">
                       <Link to='/change/info/menu' > <button className=" btn_see1"> Меню</button> </Link>
                    <Link to='/change/info/event' > <button className=" btn_see1"> Мероприятия</button> </Link>
-                   <Link to='/change/info/lenta' > <button className=" btn_see1"> Лента</button> </Link>
+  
                    <Link to='/change/info/move' > <button className=" btn_see1"> Прямая трансляция</button> </Link>
                    
-                   <button className=" see"> Оставить заявку!</button> 
+                   <button className=" see">Оставить заявку! </button> 
 
                       </div>
                      

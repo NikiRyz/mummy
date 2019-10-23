@@ -7,16 +7,16 @@ class Form extends React.Component {
   
     render() {
       return (
-       
-        <div>    
-             <script src="https://use.fontawesome.com/fda3909b63.js"></script>
+        <div>
+        <div id="envelope" class="envelope">    
+          
             <form method="post" action="">
                 <div class="FormHeader" >
                     <a href="">
-                        <div class="FormButtonLeft">Я СТУДЕНТ </div>
+                        <div class="FormButtonLeft">ЛЬГОТЫ </div>
                     </a>
                     <a href="">
-                        <div class="FormButtonRight">Я ОРГАНИЗАЦИЯ </div>
+                        <div class="FormButtonRight">БЕЗ ЛЬГОТ </div>
                     </a>
     
                 </div>
@@ -65,6 +65,8 @@ class Form extends React.Component {
             </form>
     
         </div>
+            <div id="fade" class="black_overlay"></div>
+            </div>
        
       )
     }

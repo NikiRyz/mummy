@@ -1,66 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
-/* используем reset*/
-
-
-html, body, div, span, applet, object, iframe,/*множественные селекторы*/
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
-}
-
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 * {
   font-family: "Montserrat", sans-serif;
 }
 @media screen {
   .black_overlay {
-    display: none;
+    display: block;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -69,18 +16,22 @@ table {
     background-color: black;
     z-index: 1001;
     opacity: 0.7;
+    
   }
   .envelope {
-    display: none;
+    top:10px;
+  right: 400px;
+    display: block;
     width: 35%;
     height: 95vh;
     z-index: 1002;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     background-color: white;
     border-radius: 5%;
     text-align: center;
     min-width: 400px;
+    
   }
 
   .envelope input {
@@ -96,6 +47,7 @@ table {
   .envelope .consent { /*дочерний селектор*/
     width: auto;
     text-align: left;
+    color: black;
   }
   label {
     font-size: 0.8em;
@@ -119,13 +71,14 @@ table {
 
   a {
     text-decoration: none;
+    color: black;
   }
 
   .FormButtonRight {
     height: 2.2em;
     width: 50%;
     border: 0;
-    background-color: #ffcc00;/*hex*/
+    background-color: #00BCD4;/*hex*/
     padding-top: 3%;
     font-size: 1.3em;
     float: left;
@@ -138,7 +91,7 @@ table {
     height: 2.2em;
     width: 50%;
     border: 0;
-    background-color: #ffcc00;
+    background-color: #00BCD4;
     padding-top: 3%;
     font-size: 1.3em;
     float: left;
@@ -158,7 +111,7 @@ table {
   }
 
   #btn {
-    background-color: #ffcc00;
+    background-color: #00BCD4;
     color: white;
     font-size: 1em;
     height: 2em;
@@ -198,9 +151,7 @@ table {
     padding-left: 1.5em;
     font-size: 0.8em;
   }
-  .form-group .fa {
-    display: none;
-  }
+ 
   .FormHeader {
     font-size: 0.8em;
   }
